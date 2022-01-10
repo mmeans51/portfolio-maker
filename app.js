@@ -60,7 +60,7 @@ const promptUser = () => {
         message: 'would you like to enter another project?',
         default: false
       }
-    ]);
+    ])
   };
   promptUser()
   .then(answers => console.log(answers))
